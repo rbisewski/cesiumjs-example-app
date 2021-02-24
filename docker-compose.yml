@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  cesium-example:
+    build: .
+    image: cesiumjs-example-app:21.02
+    container_name: cesium-example-app
+    ports:
+      - '8080:80'
+    restart: unless-stopped

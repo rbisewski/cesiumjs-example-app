@@ -19,7 +19,7 @@ const orbitPolylineDrawer = new AdditionalClasses.OrbitPolylineDrawer(cesiumView
 var   twoLineElements     = null;
 
 // main entry point of the application
-fetch('2019-006.txt')
+fetch('gnss.txt')
     .then(response => response.text())
     .then(function(text)
     {

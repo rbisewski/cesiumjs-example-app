@@ -1,7 +1,7 @@
 {
   "name": "cesiumjs-example-app",
   "version": "1.0.0",
-  "description": "View the orbit of the 2019 Indian ASAT in a Cesium viewer, derived from a two line element list",
+  "description": "View the orbits of the various GNSS in a Cesium viewer, derived from a two line element list",
   "main": "index.js",
   "keywords": [
     "cesium",
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "cesium": "^1.56.1",
+    "cesium": "^1.78.0",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.7",
     "html-webpack-plugin": "^2.30.1",
